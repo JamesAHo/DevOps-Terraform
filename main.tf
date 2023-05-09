@@ -14,6 +14,7 @@ data "aws_ami" "ubuntu" {
   owners = ["099720109477"] # Canonical
 }
 
+# Using AWS default VPC
 variable "vpc_id" {
     default = "vpc-0f26f1f6cbf57ccf8"
 }
