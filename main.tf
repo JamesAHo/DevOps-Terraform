@@ -16,7 +16,7 @@ data "aws_ami" "ubuntu" {
 
 # Using AWS default VPC
 variable "vpc_id" {
-    default = "vpc-0f26f1f6cbf57ccf8"
+    default = "vpc-0952d53824d0eab1d"
 }
 
 variable "subnet_id" {
