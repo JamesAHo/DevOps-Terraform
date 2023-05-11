@@ -20,7 +20,7 @@ variable "vpc_id" {
 }
 
 variable "subnet_id" {
-    default = "subnet-024f4a19ca57886c3"
+    default = "subnet-0856fe9cae183c77c"
 }
 
 variable "key_name" {
